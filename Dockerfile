@@ -13,7 +13,7 @@ LABEL   devoply.type="site" \
 
 
 RUN apk update \
-    && apk add bash less vim nginx ca-certificates \
+    && apk add bash less vim nginx ca-certificates curl \
     php-fpm php-json php-zlib php-xml php-pdo php-phar php-openssl \
     php-pdo_mysql php-mysqli \
     php-gd php-iconv php-mcrypt \
